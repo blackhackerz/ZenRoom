@@ -5,32 +5,54 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body onload="type()">
         <div id="navbar">
-
+            
         </div>
-        <div id="welcome">
-            <h1>Welcome to DynoDev</h1>
-            <p>
-                Sample text. kjbfhvewjbcsjbkjbchebefvyueriurfbububrefubsjb hjcb hjxb chjbwuebyucbgwuebcsjb hjbchjub
-            </p>
+        <div class="wrapper">
+            <div id="welcome">
+                <div class="right_container_welcome">
+                    <h1 class="heading">Welcome to DynoDev</h1>
+                    <div class="content_welcome" id="content_welcome">
+                    </div>
+                    <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Learn More</span>
+                      </button>
+                </div>
         </div>
         <div id="therapy">
+            <div id="therapy-img" class="card">
+
+            </div>
             <div id="therapy-text">
                 <h1>Therapy</h1>
                 <p>Struggling with mental health. Need someone to talk with. Our AI Bot is here to help.</p>
             </div>
-            <div id="therapy-img">
-
-            </div>
-            <div id="exercise">
-                <div id="exc-img">
-                    
-                </div>
+        </div>
+        <div id="exercise">
             <div id="exc-text">
                 <h1>Execises</h1>
                 <p>Want to improve your mental strength. Try some exercises for better mental health.</p>
             </div>
+            <div id="exc-img" class="card">
+                s
+            </div>
         </div>
+        <script>
+            var i = 0;
+var txt = `Sample text.kjbfhvewjbcsjbkjbchebefvyueriurfbububrefubsjb hjcb hjxb chjbwuebyucbgwuebcsjb hjbchjub`;
+var speed = 50;
+
+function type() {
+    if (i < txt.length) {
+      document.getElementById("content_welcome").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(type, speed);
+    }
+  }
+        </script>
     </body>
 </html>
