@@ -1,36 +1,162 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Mental Health</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div id="navbar">
+<html lang="en">
 
-        </div>
-        <div id="welcome">
-            <h1>Welcome to DynoDev</h1>
-            <p>
-                Sample text. kjbfhvewjbcsjbkjbchebefvyueriurfbububrefubsjb hjcb hjxb chjbwuebyucbgwuebcsjb hjbchjub
-            </p>
-        </div>
-        <div id="therapy">
-            <div id="therapy-text">
-                <h1>Therapy</h1>
-                <p>Struggling with mental health. Need someone to talk with. Our AI Bot is here to help.</p>
-            </div>
-            <div id="therapy-img">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZenRoom - Guide to Mental WellBeing</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-            </div>
-            <div id="exercise">
-                <div id="exc-img">
-                    
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        ZenRoom<span class="span">.</span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home"  data-nav-link></a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link></a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary">Sign Up</a>
+
+      <button class="nav-toggle-btn" aria-label="open manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <section class="section hero" aria-label="hero" id="home" data-section
+        style="background-image: url('./assets/images/background.png')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">Helping you in your journey towards a healthier mind.</h1>
+
+          <p class="hero-text">
+            Take the first step by exploring our mental health resources and discover how you can achieve greater well-being and happiness.
+          </p>
+
+          <a href="#" class="btn btn-secondary">Let's Start</a>
+        </div>
+      </section>
+
+      <section class="section service" aria-label="service" data-section>
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-1.svg" width="60" height="60" loading="lazy" alt="Mental Workout">
                 </div>
-            <div id="exc-text">
-                <h1>Execises</h1>
-                <p>Want to improve your mental strength. Try some exercises for better mental health.</p>
-            </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Mental Workout</a>
+                </h3>
+
+                <p class="card-text">
+                  Our mental exercises are carefully crafted to challenge and strengthen your brain, promoting cognitive function and enhancing overall mental health.
+                </p>
+
+                <a href="#" class="btn btn-secondary">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card active">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-2.svg" width="60" height="60" loading="lazy" alt="Therapy">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Therapy</a>
+                </h3>
+
+                <p class="card-text">
+                  With our AI-powered therapy feature, you can receive immediate feedback, insights, and coping strategies for a variety of mental health challenges, from anxiety and depression to stress and burnout, tailored to your needs and preferences.
+                </p>
+
+                <a href="#" class="btn btn-secondary">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-3.svg" width="60" height="60" loading="lazy" alt="E-Diary">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">E-Diary</a>
+                </h3>
+
+                <p class="card-text">
+                  Designed to be private and confidential, allowing you to write freely without worrying about prying eyes or judgments.
+                </p>
+
+                <a href="#" class="btn btn-secondary">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
         </div>
-    </body>
+      </section>
+
+    </article>
+  </main>
+
+  <script src="script.js" defer></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
 </html>
