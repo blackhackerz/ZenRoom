@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>eDiary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>eDiary</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/add">New Entry</a></li>
+                <li><a href="/view">View Entries</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>View Entries</h2>
+        {% if entries %}
+        {% for entry in entries %}
+        <div class="entry">
+            <h3>{{ entry.title }}</h3>
+            <p>{{ entry.date }}</p>
+            <p>{{ entry.text }}</p>
+        </div>
+        {% endfor %}
+        {% else %}
+        <p>No entries yet.</p>
+        {% endif %}
+    </main>
+    <footer>&copy; 2023 eDiary</footer>
+</body>
+</html>
