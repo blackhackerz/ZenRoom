@@ -14,8 +14,7 @@ The e-diary feature allows users to record their thoughts and emotions in a priv
 4. The user can also create an online journal, where they can write down their thoughts and feelings. The data is stored in our database.</br>
 5. The user can also visit workouts section where varous exercises and activities are listed for improving their mental health.</br>
 <h2>Demo</h2>
-![home screen](https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/home.png)
-![image](https://user-images.githubusercontent.com/113258024/229091570-f748821b-2b05-4fbf-9cba-4f8d583d6505.png)
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/home.png" alt="home">
 
 <h2>Architecture and Technologies Used</h2>
 1. <b>Frontend: </b>HTML,CSS,JavaScript</br>
