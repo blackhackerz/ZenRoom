@@ -19,7 +19,7 @@ The e-diary feature allows users to record their thoughts and emotions in a priv
 3. <b>DataBase: </b>SQL Alchemy</br>
 4. <b>API: </b>GPT-3 API</br>
 5. <b>Python</b>
-<h3>Contribution Guidelines</h3>
+<h2>Contribution Guidelines</h2>
 1. Create a new issue or asked to be assigned to one</br>
 2. Fork the project</br>
 3. Clone the project</br>
