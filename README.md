@@ -3,6 +3,7 @@ ZenRoom is a web application that helps users take care of their mental health t
 <h2>Features</h2>
 1. <b>Mental Workouts: </b> 
 ZenRoom offers a variety of mental workouts to help improve users' mental health. These workouts include activities such as yoga and other games that can be beneficial for the users. </br>
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/fitness.png" alt="home">
 2. <b>Therapy: </b>
 Our chatbot uses the GPT API to provide empathetic responses and helpful advice to users seeking online therapy. This feature allows users to access mental health support in a private and anonymous setting.</br>
 3. <b>E-Diary: </b>
