@@ -2,14 +2,13 @@ from flask import render_template, jsonify, request, flash, redirect, url_for
 from zenroom import app, db
 from zenroom.forms import Diary,Login
 from zenroom.structures import Diarydb
-import pywhatkit
+# import pywhatkit
 import datetime
 import openai
 from helper.openai_api import text_complition
-import pyautogui
 
-pyautogui.FAILSAFE = False
-pyautogui.PAUSE = 1
+
+
 
 openai.api_key = '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'
 
@@ -79,7 +78,7 @@ def runbook():
         for word in words_to_replace:
             command = command.replace(word,"")
         response_message="ok,playing the song for you on youtube"
-        pywhatkit.playonyt(command)
+#         pywhatkit.playonyt(command)
         return jsonify(response_message)
         
     elif 'time' in command:
@@ -100,11 +99,11 @@ def runbook():
         message = command
         if message:
             try:
-                if len(message.split()) > 45:
+                if len(message.split()) > 80:
                     raise ValueError("Input contains more than 45 words. Please try again.")
                 messages.append({"role": "user", "content": message})
                 chat = openai.Completion.create(
-                    model="text-davinci-002", prompt=f"{messages[-1]['content']} Assistant: ", max_tokens=360
+                    model="text-davinci-002", prompt=f"{messages[-1]['content']} Assistant: ", max_tokens=1024
                 )
             except ValueError as e:
                 print(f"Error: {e}")
