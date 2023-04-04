@@ -9,10 +9,9 @@ Our chatbot uses the GPT API to provide empathetic responses and helpful advice 
 <img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/.png" alt="home">
 3. <b>E-Diary: </b>
 The e-diary feature allows users to record their thoughts and emotions in a private digital journal. Users can reflect on their day, track their progress, and identify patterns in their emotions to help improve their mental wellbeing.</br>
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/ediary 1.png" alt="home">
 
-<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/ediary1.png" alt="home">
-
-<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/ediary2.png" alt="home">
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/ediary 2.png" alt="home">
 <h2>How it works (Users' POV)</h2>
 1. Users can visit our web application and create a new account or login to their existing account.</br>
 2. Once logged in, users have three options to choose from, depending on what they need.</br>
@@ -34,7 +33,7 @@ We welcome contributions from anyone who shares our passion for mental health an
 2. Fork the project</br>
 3. Clone the project</br>
 4. Create a new branch `git checkout -b new-feature`</br>
-5. 4. run app.py to see the working of the project`</br>
+5. run app.py to see the working of the project`</br>
 6. Work on the issue</br>
 7. Once all the appropriate changes are done in the files `git add`.</br>
 8. Add changes to reflect the changes made `git commit -m 'commit message`</br>
