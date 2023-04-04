@@ -15,9 +15,9 @@ The e-diary feature allows users to record their thoughts and emotions in a priv
 <h2>How it works (Users' POV)</h2>
 1. Users can visit our web application and create a new account or login to their existing account.</br>
 2. Once logged in, users have three options to choose from, depending on what they need.</br>
-3. The therapy feature connects the user to our voice and chatbot where user can interact and seek help from the GPT 3 API.</br>
-4. The user can also create an online journal, where they can write down their thoughts and feelings. The data is stored in our database.</br>
-5. The user can also visit workouts section where varous exercises and activities are listed for improving their mental health.</br>
+3. The therapy feature connects the user to our chatbot where user can interact and seek help from the GPT 3 API and if the condition of the user doesnt seem to improve using our app, the user can also locate the nearest therapist using our inbuild map to locate the nearest therapist near and the user can accordingly schedule an appointment</br>
+4. The user can also create an online journal, where they can write down their thoughts and feelings and can track their improvement.</br>
+5. The user can also visit workouts section where varous exercises, activities and games are listed for improving their mental health.</br>
 <h2>Demo</h2>
 <img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/home.png" alt="home">
 
