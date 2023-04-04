@@ -6,8 +6,13 @@ ZenRoom offers a variety of mental workouts to help improve users' mental health
 <img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/fitness.png" alt="home">
 2. <b>Therapy: </b>
 Our chatbot uses the GPT API to provide empathetic responses and helpful advice to users seeking online therapy. This feature allows users to access mental health support in a private and anonymous setting.</br>
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/.png" alt="home">
 3. <b>E-Diary: </b>
 The e-diary feature allows users to record their thoughts and emotions in a private digital journal. Users can reflect on their day, track their progress, and identify patterns in their emotions to help improve their mental wellbeing.</br>
+
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/ediary1.png" alt="home">
+
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/ediary2.png" alt="home">
 <h2>How it works (Users' POV)</h2>
 1. Users can visit our web application and create a new account or login to their existing account.</br>
 2. Once logged in, users have three options to choose from, depending on what they need.</br>
@@ -21,7 +26,7 @@ The e-diary feature allows users to record their thoughts and emotions in a priv
 1. <b>Frontend: </b>HTML,CSS,JavaScript</br>
 2. <b>Backend: </b>Python(Flask)</br>
 3. <b>DataBase: </b>SQL Alchemy</br>
-4. <b>API: </b>GPT-3 API</br>
+4. <b>API: </b>GPT-3 API,Google maps api, dialog flow api</br>
 5. <b>Python</b>
 <h2>Contribution Guidelines</h2>
 We welcome contributions from anyone who shares our passion for mental health and wellbeing. To contribute to ZenRoom, please follow these guidelines: </br>
@@ -29,8 +34,9 @@ We welcome contributions from anyone who shares our passion for mental health an
 2. Fork the project</br>
 3. Clone the project</br>
 4. Create a new branch `git checkout -b new-feature`</br>
-5. Work on the issue</br>
-6. Once all the appropriate changes are done in the files `git add`.</br>
-7. Add changes to reflect the changes made `git commit -m 'commit message`</br>
-8. Push to the branch `git push`</br>
-9. Create a Pull Request with proper description</br>
+5. 4. run app.py to see the working of the project`</br>
+6. Work on the issue</br>
+7. Once all the appropriate changes are done in the files `git add`.</br>
+8. Add changes to reflect the changes made `git commit -m 'commit message`</br>
+9. Push to the branch `git push`</br>
+10. Create a Pull Request with proper description</br>
