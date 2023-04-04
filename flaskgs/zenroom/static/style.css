@@ -321,6 +321,19 @@ body {
   right: 20px;
 }
 
+.navbar-list {
+  margin-block-start: 110px;
+  border-block-end: 1px solid var(--blue-green-color-wheel_10);
+}
+
+.navbar-item { border-block-start: 1px solid var(--blue-green-color-wheel_10); }
+
+.navbar-link {
+  color: var(--white);
+  padding: 13px 20px;
+  font-size: var(--fs-5);
+  font-weight: var(--fw-600);
+}
 .navbar .nav-toggle-btn ion-icon { --ionicon-stroke-width: 25px;}
 
 

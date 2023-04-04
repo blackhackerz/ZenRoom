@@ -42,12 +42,25 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <a href="{{url_for('home')}}"  data-nav-link></a>
+            <a href="{{url_for('home')}}"  data-nav-link>Home</a>
           </li>
 
           <li class="navbar-item">
             <a href="#about" class="navbar-link" data-nav-link></a>
           </li>
+
+          <li class="navbar-item">
+            <a href="{{url_for('exercise')}}" class="navbar-link" data-nav-link>Mental Workout</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Therapy</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="{{url_for('diary')}}" class="navbar-link" data-nav-link>E-Diary</a>
+          </li>
+
         </ul>
 
       </nav>
