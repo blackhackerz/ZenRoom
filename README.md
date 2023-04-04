@@ -1,5 +1,5 @@
 <h1>ZenRoom</h1>
-ZenRoom is a web application that helps users take care of their mental health through various features such as mental workouts, an e-diary, and a chatbot powered by the GPT API for online therapy. Our application is designed to support the United Nations' Sustainable Development goal of Good Health and Wellbeing, as we believe that a healthy mind is essential to overall wellbeing.
+ZenRoom is a web application that helps users take care of their mental health through various features such as mental workouts, an e-diary, a chatbot powered by the GPT API for online therapy and also provides user to locate the nearest therapist if the condition of the user doesn't seem to improve. Our application is designed to support the United Nations' Sustainable Development goal of Good Health and Wellbeing, as we believe that a healthy mind is essential to overall wellbeing.
 <h2>Features</h2>
 1. <b>Mental Workouts: </b> 
 ZenRoom offers a variety of mental workouts to help improve users' mental health. These workouts include activities such as yoga and other games that can be beneficial for the users. </br>
