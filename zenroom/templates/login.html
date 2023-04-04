@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login.css') }}">
+    <title>ZenRoom - Login</title>
+</head>
+<body>
+  {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+              {% for category, message in messages %}
+                <div class="{{ category }}">
+                  {{ message }}
+                </div>
+              {% endfor %}
+            {% endif %}
+          {% endwith %}
+    <div class="flex-container">
+        <div class="content-container">
+          <div class="form-container">
+            <form action="" method= "POST">
+              {{form.hidden_tag()}}
+              <h1>
+                Login
+              </h1>
+              <br>
+              <br>
+              <span class="subtitle">Email:</span>
+              <br>
+              {{form.email}}
+              <br>
+              <span class="subtitle">Password:</span>
+              <br>
+              {{form.password}}
+              <br><br>
+              <input type="submit" value="SUBMIT" class="submit-btn">
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
