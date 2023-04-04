@@ -6,6 +6,10 @@ import pywhatkit
 import datetime
 import openai
 from helper.openai_api import text_complition
+import pyautogui
+
+pyautogui.FAILSAFE = False
+pyautogui.PAUSE = 1
 
 openai.api_key = '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'
 
