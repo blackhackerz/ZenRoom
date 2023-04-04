@@ -16,7 +16,7 @@ The e-diary feature allows users to record their thoughts and emotions in a priv
 The e-diary feature allows users to find and locate the nearest therapist so that they can schedule an appointment if the users health doesn't seem to improve.
 5. <b>Chat widget to solve the users common problems and issues faced by the user: </b>
 The chat widget feature helps the user to collaborate with us in case of any issues or queries.
-<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/dialogflow.png" alt="home">
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/dialog flow.png" alt="home">
 <h2>How it works (Users' POV)</h2>
 1. Users can visit our web application and create a new account or login to their existing account.</br>
 2. Once logged in, users have three options to choose from, depending on what they need.</br>
@@ -24,7 +24,7 @@ The chat widget feature helps the user to collaborate with us in case of any iss
 4. The user can also create an online journal, where they can write down their thoughts and feelings and can track their improvement.</br>
 5. The user can also visit workouts section where varous exercises, activities and games are listed for improving their mental health.</br>
 <h2>Demo</h2>
-<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/home.png" alt="home">
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/home page.png" alt="home">
 
 <h2>Architecture and Technologies Used</h2>
 1. <b>Frontend: </b>HTML,CSS,JavaScript</br>
