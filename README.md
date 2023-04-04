@@ -6,7 +6,7 @@ ZenRoom offers a variety of mental workouts to help improve users' mental health
 <img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/fitness.png" alt="home">
 2. <b>Therapy: </b>
 Our chatbot uses the GPT API to provide empathetic responses and helpful advice to users seeking online therapy. This feature allows users to access mental health support in a private and anonymous setting.</br>
-<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/.png" alt="home">
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/Screenshot 2023-04-05 030849.png" alt="home">
 3. <b>E-Diary: </b>
 The e-diary feature allows users to record their thoughts and emotions in a private digital journal. Users can reflect on their day, track their progress, and identify patterns in their emotions to help improve their mental wellbeing.</br>
 <img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/ediary 1.png" alt="home">
