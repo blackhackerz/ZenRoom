@@ -17,14 +17,17 @@ The e-diary feature allows users to find and locate the nearest therapist so tha
 5. <b>Chat widget to solve the users common problems and issues faced by the user: </b>
 The chat widget feature helps the user to collaborate with us in case of any issues or queries.
 <img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/dialog flow.png" alt="home">
+<h2>Demo</h2>
+Visit www.zenroom.site</br>
+Enter username: xyz@gmail.com</br>
+Password: xyz123</br>
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/home page.png" alt="home">
 <h2>How it works (Users' POV)</h2>
 1. Users can visit our web application and create a new account or login to their existing account.</br>
 2. Once logged in, users have three options to choose from, depending on what they need.</br>
 3. The therapy feature connects the user to our chatbot where user can interact and seek help from the GPT 3 API and if the condition of the user doesnt seem to improve using our app, the user can also locate the nearest therapist using our inbuild map to locate the nearest therapist near and the user can accordingly schedule an appointment</br>
 4. The user can also create an online journal, where they can write down their thoughts and feelings and can track their improvement.</br>
 5. The user can also visit workouts section where varous exercises, activities and games are listed for improving their mental health.</br>
-<h2>Demo</h2>
-<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/home page.png" alt="home">
 
 <h2>Architecture and Technologies Used</h2>
 1. <b>Frontend: </b>HTML,CSS,JavaScript</br>
