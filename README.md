@@ -18,7 +18,7 @@ The e-diary feature allows users to find and locate the nearest therapist so tha
 The chat widget feature helps the user to collaborate with us in case of any issues or queries.
 <img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/dialog flow.png" alt="home">
 <h2>Demo</h2>
-Visit www.zenroom.site</br>
+Visit https://zenroom.site/</br>
 Enter username: xyz@gmail.com</br>
 Password: xyz123</br>
 <img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/home page.png" alt="home">
