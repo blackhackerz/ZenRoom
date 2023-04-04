@@ -6,12 +6,17 @@ ZenRoom offers a variety of mental workouts to help improve users' mental health
 <img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/fitness.png" alt="home">
 2. <b>Therapy: </b>
 Our chatbot uses the GPT API to provide empathetic responses and helpful advice to users seeking online therapy. This feature allows users to access mental health support in a private and anonymous setting.</br>
-<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/Screenshot 2023-04-05 030849.png" alt="home">
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/chatbot.png" alt="home">
 3. <b>E-Diary: </b>
 The e-diary feature allows users to record their thoughts and emotions in a private digital journal. Users can reflect on their day, track their progress, and identify patterns in their emotions to help improve their mental wellbeing.</br>
 <img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/ediary 1.png" alt="home">
 
 <img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/ediary 2.png" alt="home">
+4. <b>MAP To locateand get the direction to the nearest therapist: </b>
+The e-diary feature allows users to find and locate the nearest therapist so that they can schedule an appointment if the users health doesn't seem to improve.
+5. <b>Chat widget to solve the users common problems and issues faced by the user: </b>
+The chat widget feature helps the user to collaborate with us in case of any issues or queries.
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/dialogflow.png" alt="home">
 <h2>How it works (Users' POV)</h2>
 1. Users can visit our web application and create a new account or login to their existing account.</br>
 2. Once logged in, users have three options to choose from, depending on what they need.</br>
