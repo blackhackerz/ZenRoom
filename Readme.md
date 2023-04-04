@@ -13,6 +13,9 @@ The e-diary feature allows users to record their thoughts and emotions in a priv
 3. The therapy feature connects the user to our voice and chatbot where user can interact and seek help from the GPT 3 API.</br>
 4. The user can also create an online journal, where they can write down their thoughts and feelings. The data is stored in our database.</br>
 5. The user can also visit workouts section where varous exercises and activities are listed for improving their mental health.</br>
+<h2>Demo</h2>
+<img src="https://github.com/blackhackerz/ZenRoom/blob/main/README%20img/home.png" alt="home">
+
 <h2>Architecture and Technologies Used</h2>
 1. <b>Frontend: </b>HTML,CSS,JavaScript</br>
 2. <b>Backend: </b>Python(Flask)</br>
