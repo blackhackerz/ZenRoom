@@ -1,0 +1,111 @@
+{% extends 'layout.html' %}
+{% block content %}
+<body id="top">
+  <main>
+    <article>
+
+      <section class="section hero" aria-label="hero" id="home" data-section
+        style="background-image: url('{{ url_for('static', filename='background.png') }}')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">Helping you in your journey towards a healthier mind.</h1>
+
+          <p class="hero-text">
+            Take the first step by exploring our mental health resources and discover how you can achieve greater well-being and happiness.
+          </p>
+
+          <a href="{{url_for('login')}}" class="btn btn-secondary">Let's Start</a>
+        </div>
+      </section>
+
+      <section class="section service" aria-label="service" data-section>
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="{{ url_for('static', filename='service-1.svg') }}" width="60" height="60" loading="lazy" alt="Mental Workout">
+                </div>
+
+                <h3 class="h3">
+                  <a href="{{url_for('exercise')}}" class="card-title">Mental Workout</a>
+                </h3>
+
+                <p class="card-text">
+                  Our mental exercises are carefully crafted to challenge and strengthen your brain, promoting cognitive function and enhancing overall mental health.
+                </p>
+
+                <a href="{{url_for('exercise')}}" class="btn btn-secondary">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card ">
+
+                <div class="card-icon">
+                  <img src="{{ url_for('static', filename='service-2.svg') }}" width="60" height="60" loading="lazy" alt="Therapy">
+                </div>
+
+                <h3 class="h3">
+                  <a href="{{url_for('therapy')}}" class="card-title">Therapy</a>
+                </h3>
+
+                <p class="card-text">
+                  With our AI-powered therapy feature, you can receive immediate feedback, insights, and coping strategies for a variety of mental health challenges, from anxiety and depression to stress and burnout, tailored to your needs and preferences.
+                </p>
+
+                <a href="therapy" class="btn btn-secondary">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="{{ url_for('static', filename='service-3.svg') }}" width="60" height="60" loading="lazy" alt="E-Diary">
+                </div>
+                <h3 class="h3">
+                  <a href="{{url_for('diary')}}" class="card-title">E-Diary</a>
+                </h3>
+                <p class="card-text">
+                  Designed to be private and confidential, allowing you to write freely without worrying about prying eyes or judgments.
+                </p>
+
+                <a href="{{url_for('diary')}}" class="btn btn-secondary">
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      chat-title="The ZenRoom"
+      agent-id="65d436db-fdd4-486e-90ca-037e12a44af2"
+      language-code="en"
+    ></df-messenger>
+    <script src="chat.js"></script>
+{% endblock content %}
